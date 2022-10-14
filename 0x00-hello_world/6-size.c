@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - A C program that prints the size of various types on the computer 
+ * main - Prints sizes of characters
  *
  *Return: Always 0 (success)
  */
