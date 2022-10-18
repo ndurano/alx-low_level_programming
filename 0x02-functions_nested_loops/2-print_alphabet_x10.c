@@ -8,27 +8,27 @@
  */
 void print_alphabet_x10(void)
 {
-	int a;
+	int l;
 
-	int b = 0;
+	int n = 0;
 
-	while (b < 10)
+	while (n < 10)
 
 	{
 
-		a = 'a';
+		l = 'a';
 
-		while (a <= 'z')
+		while (l <= 'z')
 
 		{
-			_putchar(a);
+			_putchar(l);
 
-			a += a;
+			l += l;
 		}
 
 		_putchar(10);
 
-		b += a;
+		n += a;
 
 	}
 
