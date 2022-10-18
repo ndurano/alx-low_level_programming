@@ -1,9 +1,14 @@
 #include <stdio.h>
+<<<<<<< HEAD
 
 /*
  * main - Entry point
  *
  *Description: A C program that prints the size of various types
+=======
+/**
+ * main - Prints sizes of characters
+>>>>>>> a5591a780039fe0c9ee2e1f7510f862903835f8c
  *
  *Return: Always 0 (success)
  */
