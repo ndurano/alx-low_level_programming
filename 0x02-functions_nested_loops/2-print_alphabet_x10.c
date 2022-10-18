@@ -23,7 +23,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(l);
 
-			l += l;
+			l += 1;
 		}
 
 		_putchar(10);
