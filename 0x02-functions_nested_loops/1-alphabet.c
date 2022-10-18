@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (success)
  */
-void print_alpha_lower(void)
+void print_alphabet(void)
 {
 	int c = 'a';
 
