@@ -2,11 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main function - Determines whether a number is positive or negative
+ * main - Entry point
  *
- * Return: 0 on success
- * */
-int main (void)
+ * Description: The program checks a number and determines if it positive
+ *
+ * Return: Always 0 (success)
+ */
+int main(void)
 {
 		int n;
 
@@ -15,18 +17,14 @@ int main (void)
 		n = rand() - RAND_MAX / 2;
 
 		if (n < 0)
-
 		{
 
-				printf("%d is %s\n", n, "negative");
-
-		}
+			printf("%d is %s\n", n, "negative");
 
 		else if (n > 0)
-
 		{
 
-				printf("%d is %s\n", n, "positive");
+			printf("%d is %s\n", n, "positive");
 
 		}
 
@@ -34,7 +32,7 @@ int main (void)
 
 		{
 
-				printf("%d is %s\n", n, "zero");
+			printf("%d is %s\n", n, "zero");
 		}
 
 		return (0);
