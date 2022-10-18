@@ -4,6 +4,8 @@
  *
  * Description: Function that checks for lowercase characters
  *
+ * @c: The input character to check
+ *
  * Return: int
  */
 int _islower(int c)
