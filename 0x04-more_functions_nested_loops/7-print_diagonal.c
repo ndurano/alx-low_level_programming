@@ -1,4 +1,7 @@
- * print_diagonal - Draw a diagonal line on the terminal
+#include"main.h"
+
+/** 
+ *  print_diagonal - Draw a diagonal line on the terminal
  *
  * @n: is the number of times the \ character
  *     should be printed
