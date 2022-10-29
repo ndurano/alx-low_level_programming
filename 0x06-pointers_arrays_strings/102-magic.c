@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main:
- * 
- * Return: 0 
+ * main- use pointers
+ *
+ * Return: 0
  */
 int main(void)
 {
