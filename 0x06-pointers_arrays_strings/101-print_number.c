@@ -17,6 +17,12 @@ unsigned int digits(unsigned int n)
 	return (i);
 }
 
+/**
+ * pow_x10 - Custom pow
+ * @exponent: Exponent number
+ * Return: Return the divisor
+ */
+
 unsigned int pow_x10(unsigned int exponent)
 {
 	unsigned int res, i;
