@@ -10,17 +10,23 @@
 
 void print_diagsums(int *a, int size)
 {
-	int i, Square1, Square2;
 
-	Square1 = 0;
-	Square2 = 0;
+	int diagonal_sum_1 = 0;
+	int diagonal_sum_2 = 0;
+	int row, i;
 
-	for (i = 0; i < (size * size); i++)
+	for (row = 0; row < size; row++)
 	{
-		if (i % (size + 1) == 0)
-			Square1 += a[i];
-		if (i % (size - 1) == 0 && i != 0 && i < size * size - 1)
-			Square2 += a[i];
+		i = (row * size) + row;
+		diagonal_sum_1 += a[i];
 	}
-	printf("%d, %d\n", Square1, Square2);
+
+	for (row = 1; row <= size; row++)
+	{
+		i = (row * size) - row;
+		diagonal_sum_2 += a[i];
+	}
+
+	printf("%d, %d\n", diagonal_sum_1, diagonal_sum_2);
+
 }
