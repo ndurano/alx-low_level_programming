@@ -6,7 +6,7 @@
  * @s: pointer to input string - the string to be scanned
  * @accept: pointer to string containing characters to match
  *
- * Return: It returns a pointer to the character in @s that 
+ * Return: It returns a pointer to the character in @s that
  *      matches one of the characters in @accept, else returns NULL.
 */
 

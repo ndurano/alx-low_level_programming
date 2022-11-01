@@ -1,6 +1,6 @@
 /**
  * _strspn - a function returns the length of the initial substring
- *       of the string pointed to by s that is made up of only 
+ *       of the string pointed to by s that is made up of only
  *      those character contained in the string pointed to by accept.
  *
  * @s: pointer to string input - string to be scanned

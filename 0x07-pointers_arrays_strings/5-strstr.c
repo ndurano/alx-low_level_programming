@@ -1,13 +1,13 @@
 /**
- * _strstr - a function that finds the first occurrence of the substring @needle
- *       in the string haystack. The terminating '\0' characters are not compared.
+ * _strstr - a function that finds the first occurrence of substring @needle
+ *       in the string haystack. The terminating '\0' characters not compared.
  *
  * @haystack: input string to search for matching
  *            substrings. The main C string to be scanned
  * @needle: the small string to be searched with-in haystack stringr
  *
- * Return: returns a pointer to the first occurrence in haystack 
- *      of any of the entire sequence of characters specified in needle, 
+ * Return: returns a pointer to the first occurrence in haystack
+ *      of any of the entire sequence of characters specified in needle,
  *      or a null pointer if the sequence is not present in haystack.
 */
 
