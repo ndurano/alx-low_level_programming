@@ -1,13 +1,11 @@
 /**
- * _strspn - a function returns the length of the initial substring
- *       of the string pointed to by s that is made up of only
- *      those character contained in the string pointed to by accept.
+ * _strspn - a function that gets the
+ *           length of a prexif substring
  *
- * @s: pointer to string input - string to be scanned
- * @accept: srting containing the characters to match
+ * @s: pointer to string input
+ * @accept: substring prefix to look for
  *
- * Return: the number of characters in the initial segment of s
- *      which consists only of characters from accept
+ * Return: the number of bytes in the initial segment
 */
 
 unsigned int _strspn(char *s, char *accept)

@@ -1,27 +1,23 @@
-#include "main.h"
+#include"main.h"
+
 /**
- * _abs - Entry point
+ * _abs - function that computes the absolute
+ *       value of an integer
  *
- * Description: Function that computes the absolute value of an integer
+ * @i: take input valaues for the function
  *
- *@x: The number to check
- * Return: int
- */
-int _abs(int x)
+ * Return: Always 0 (Success)
+*/
 
+int _abs(int i)
 {
-	if (x < 0)
+	/**
+	 * if int value is a negative
+	 * multiply by -1 to get a positive value
+	*/
+	if (i < 0)
+		i = (-1) * i;
 
-	{
-
-		x = x * (-1);
-
-		return (x);
-
-	}
-
-	else
-
-		return (x);
+	return (i);
 
 }

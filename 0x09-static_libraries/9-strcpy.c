@@ -1,22 +1,23 @@
 /**
- * _strcpy - copies a string from one pointer to another
+ * _strcpy - a function that copies the string
+ *        pointed to by `src` including the null byte
+ *        to the buffer pointed to by `dest`
  *
- * @src: input parameter for the source of the sring
- * @dest: destination of string
+ * @dest: pointer to char
+ * @src: pointer to char
  *
- * Return: pointer to dest input parameter
+ * Return: pointer to @dest
 */
 
 char *_strcpy(char *dest, char *src)
 {
-	int m, n = 0;
+	int c;
 
-	for (m = 0; src[m] != '\0'; ++m)
+	for (c = 0; src[c];)
 	{
-		dest[n] = src[m];
-		++n;
+		dest[c] = src[c];
+		c++;
 	}
-	dest[n] = '\0';
 
 	return (dest);
 }

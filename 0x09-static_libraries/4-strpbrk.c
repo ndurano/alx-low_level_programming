@@ -1,13 +1,13 @@
 /**
- * _strpbrk - a functionfinds the first character in the string s
- *       that matches any character specified in accept
- *       (It excludes terminating null-characters).
+ * _strpbrk - a function that searches a
+ *            string for any of a set of bytes.
  *
- * @s: pointer to input string - the string to be scanned
- * @accept: pointer to string containing characters to match
+ * @s: pointer to input string
+ * @accept: pointer to string we
+ *         searching for in @s
  *
- * Return: It returns a pointer to the character in @s that
- *      matches one of the characters in @accept, else returns NULL.
+ * Return: pointer to the bytes in @s
+ *         or NULL if no such byte is found
 */
 
 char *_strpbrk(char *s, char *accept)
